@@ -1,3 +1,0 @@
-vpc:
-    source:  "https://github.com/aws-clouddevops/tf-module-vpc.git"
-    version: "main"
