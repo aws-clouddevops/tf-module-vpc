@@ -11,7 +11,7 @@ resource "aws_route_table" "public-rt" {
     vpc_peering_connection_id   = aws_vpc_peering_connection.peer.id
   }
   tags = {
-    Name = "${var.ENV}-pub-route-table"
+    Name = "${var.ENV}-prv-route-table"
   }
 }
 
