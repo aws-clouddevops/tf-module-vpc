@@ -6,6 +6,6 @@ resource "aws_route_table" "public-rt" {
     gateway_id = aws_internet_gateway.igw.id
   }
   tags = {
-    Name = "${var.ENV}-pub-route-table}"
+    Name = "${var.ENV}-pub-route-table"
   }
 }
